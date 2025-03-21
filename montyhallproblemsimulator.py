@@ -7,8 +7,7 @@ print("Tebak Tirai Yang Berisi Mobil\n")
 hadiah = [(1, "Mobil"), (0, "Zonk"), (0, "Zonk")]
 
 """ Mengacak Hadiah """
-for i in range(10):
-    random.shuffle(hadiah)
+random.shuffle(hadiah)
 
 """ Mengambil Pilihan Pertama """
 pilihanPertama = int(input("Pilih tirai 1, 2, atau 3: "))
